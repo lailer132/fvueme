@@ -1,7 +1,7 @@
 <template>
     <div class="app-container">
         <!-- 顶部 Header 区域 -->
-        <mt-header fixed title="Vue 商城"></mt-header>        <!-- 中间 路由 router-view 区域 -->
+        <Header-a12 fixed title="Vue 商城"></Header-a12>        <!-- 中间 路由 router-view 区域 -->
         <!-- 底部 TabBar 区域 -->
 
         <h1>zhanwei</h1>

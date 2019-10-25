@@ -3,7 +3,8 @@ console.log('ok');
 import Vue from 'vue';
 // 按需导入 Mint-UI 中的组件
 import { Header } from 'mint-ui';
-Vue.component(Header.name, Header);
+// Vue.component(Header.name, Header);
+Vue.component("Header-a12", Header);
 // 导入 MUI 的样式
 import './lib/mui/css/mui.min.css'
 
