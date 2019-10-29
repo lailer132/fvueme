@@ -37,5 +37,15 @@ module.exports = {
         alias:{
             // "vue$":"vue/dist/vue.js"
         }
+    },
+    devServer: {
+        proxy: {
+            '/api': {
+                target: 'http://yamfeel.gz01.bdysite.com/ColorCard-Uni',
+                // pathRewrite: {'^/api' : ''},
+                changeOrigin: true,     // target是域名的话，需要这个参数，
+                secure: false          // 设置支持https协议的代理
+              }
+        }
     }
 }
